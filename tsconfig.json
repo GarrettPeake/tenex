@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "debug",
+        "module": "esnext",
+        "target": "es6",
+        "declaration": true,
+        "declarationDir": "types",
+        "alwaysStrict": true,
+        "strict": true,
+        "preserveConstEnums": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "strictPropertyInitialization": false,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "experimentalDecorators": true,
+        "types": [
+            "@cloudflare/workers-types",
+            "@types/jest"
+        ]
+    },
+    "include": ["src", "types.d.ts"],
+    "exclude": ["node_modules"]
+}
